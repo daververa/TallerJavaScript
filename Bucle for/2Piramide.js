@@ -3,7 +3,7 @@
 const filas = prompt("Por favor, digite el numero de filas de la piramide de numeros: ");
 console.log(filas);
 
-let piramide = [""];
+let piramide = [];
 
 if (filas !== null){
     for (let i = 1; i <= parseInt(filas); i++){
@@ -18,5 +18,5 @@ if (filas !== null){
     alert(piramideTriangulo);
 }
 else {
-    alert("no ingreso un nombre")
+    alert("no ingreso un numero de filas")
 }

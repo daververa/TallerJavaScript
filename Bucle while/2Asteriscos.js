@@ -22,5 +22,5 @@ if (filas !== null){
     alert(piramideTriangulo);
 }
 else {
-    alert("no ingreso un nombre")
+    alert("no ingreso un numero de filas")
 }

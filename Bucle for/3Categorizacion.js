@@ -3,9 +3,9 @@
 const numeros = prompt("Ingrese los números del arreglo separados por comas:");
 const arregloNumeros = numeros.split(",").map(numero => parseInt(numero));
 
-let positivos = [""];
-let negativos = [""];
-let ceros = [""];
+let positivos = [];
+let negativos = [];
+let ceros = [];
 
 if (numeros !== null){
     arregloNumeros.forEach(numeroCaracterizacion => {
